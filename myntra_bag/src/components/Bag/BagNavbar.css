@@ -1,0 +1,271 @@
+/* .nav-cont{
+    border: 2px solid black;
+    width:100%;
+    height:80px;
+
+}
+.logo>img{
+    width:4%;
+} */
+#nav {
+  display: flex;
+  gap: 26%;
+  padding: 20px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border-bottom: 1px solid rgb(241, 241, 241);
+  color: rgb(19, 18, 18);
+}
+
+#logo {
+  width: 50px;
+  margin-left: 50px;
+}
+
+#check {
+  width: 25px;
+}
+
+#blue {
+  color: #14cda8;
+  /* text-decoration: underline; */
+}
+
+#blueline {
+  width: 35px;
+  height: 2px;
+  margin-top: 3px;
+  background-color: #14cda8;
+}
+
+#nav-2 {
+  display: flex;
+}
+
+.pin {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(214, 211, 211);
+  padding: 15px;
+  width: 93%;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.pin1 {
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.pin2 {
+  font-weight: bold;
+  font-size: 13px;
+  color: #FF3F6C;
+  background-color: white;
+  border: 1px solid #FF3F6C;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.offers {
+  border: 1px solid rgb(214, 211, 211);
+  padding: 15px;
+  width: 93%;
+  border-radius: 5px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.box1 {
+  display: grid;
+  grid-template-columns: 5% auto;
+  margin-bottom: 10px;
+}
+
+.margin {
+  margin-top: -3px;
+  font-weight: 600;
+}
+
+.offerList li {
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: gray;
+}
+
+.shoppingDetails {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 10px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.pr {
+  display: flex;
+  gap: 10px;
+  /* padding: 20px; */
+  border: 1px solid rgb(214, 211, 211);
+  padding: 12px;
+  width: 94%;
+  border-radius: 5px;
+  margin-bottom: 8px;
+
+ 
+}
+
+.pr>div>img {
+  width: 120px;
+  height: 170px;
+  padding: 5px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 5px
+}
+
+.off {
+  text-decoration: line-through
+}
+
+.disc {
+  color: orange;
+}
+
+.gridData {
+  display: grid;
+  grid-template-columns: 30% 30% auto;
+  font-weight: bold;
+}
+
+.subGridDiv1 {
+  width: 65px;
+  background-color: rgb(235, 232, 232);
+  /* padding: 0px 8px; */
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.subGridDiv2 {
+  width: 65px;
+  background-color: rgb(235, 232, 232);
+  /* padding: 0px 8px; */
+  border-radius: 2px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.mainbag {
+  width: 70%;
+  display: flex;
+  margin: auto;
+  /* grid-template-columns: 19% auto 42%; */
+  padding-bottom: 100px;
+}
+
+.borderRight {
+  border-right: 1px solid rgb(214, 211, 211);
+  /* text-align: right; */
+  padding-right: 15px;
+  padding-top: 30px;
+  /* padding-left: 32%; */
+}
+
+.billing {
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 16px;
+  width: 50%;
+  /* padding-left: 32%; */
+}
+
+.fontBold {
+  /* font-size: 15px; */
+  font-weight: bold;
+}
+
+.font14 {
+  font-size: 14px;
+}
+
+.coupon {
+  border-bottom: 1px solid rgb(214, 211, 211);
+  /* width: 46%; */
+  padding: 13px 0px;
+  display: grid;
+  grid-template-columns: 12% auto 25%;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.coupon div:nth-child(1) {
+  margin-top: 5px;
+}
+
+.coupon div:nth-child(2) {
+  margin-top: 4px;
+}
+
+.coupon div:nth-child(3) {
+  width: 40px;
+  border: 1px solid #FF3F6C;
+  color: #FF3F6C;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 3px 18px;
+}
+
+.marginTop {
+  margin-top: 10px;
+}
+
+
+.marginBottom {
+  margin-top: -3px;
+  font-weight: 600;
+}
+.marginTop20 {
+  margin-top: 20px;
+}
+
+.borderBottom {
+  /* width: 46%; */
+  border-bottom: 1px solid rgb(214, 211, 211);
+}
+
+.cursor {
+  cursor: pointer;
+}
+.priceFlex {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.placeOrderBtn {
+  padding: 10px;
+  color: white;
+  background-color: #FF3F6C;
+  text-align: center;
+  border-radius: 2px;
+}
+.gridImage {
+  display: grid;
+  grid-template-columns: 75% auto;
+  border-top: 1px solid rgb(214, 211, 211);
+}
+
+.gridImage > div {
+  text-align: left;
+  margin-top: 15px;
+  font-size: 14px;
+}

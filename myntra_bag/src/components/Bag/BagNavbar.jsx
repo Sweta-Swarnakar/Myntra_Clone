@@ -1,16 +1,12 @@
 import React from 'react'
-import "./Navbar.css"
-export const Navbar = () => {
+import "./BagNavbar.css"
+import logo from "./Images/myntra-logo.png"
+export const BagNavbar = () => {
     return (
-        // <div className='nav-cont'>
-        //     <div className='logo'><img src="https://images.news18.com/ibnlive/uploads/2021/01/1611996262_ynt.jpeg?im=FitAndFill,width=1200,height=900"></img></div>
-        //     <div></div>
-        //     <div></div>
-        // </div>
         <div id="nav">
             <div>
                 <img id="logo"
-                    src="https://images.news18.com/ibnlive/uploads/2021/01/1611996262_ynt.jpeg?im=FitAndFill,width=1200,height=900"
+                    src={logo}
                     alt="" />
             </div>
             <div id="nav-2">

@@ -1,10 +1,10 @@
-import './App.css';
-import { Navbar } from './components/Navbar/Navbar';
+// import './App.css';
+import { Bag } from './components/Bag/Bag';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Bag />
     </div>
   );
 }
